@@ -13,10 +13,7 @@ export default function App() {
       <Shell>
         <Routes>
           <Route path="/" element={<Dashboard />} />
-          <Route path="/explorar" element={<Explorar />} />
-          <Route path="/pais" element={<Pais />} />
-          <Route path="/universidades" element={<Universidades />} />
-          <Route path="/galeria" element={<Galeria />} />
+          
         </Routes>
       </Shell>
     </BrowserRouter>
